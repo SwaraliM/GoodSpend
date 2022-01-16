@@ -1,0 +1,1452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".Fragment.BothFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Category:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="Salary"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Amount:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:id="@+id/both_salary"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#4CAF50"
+                    android:text="0.00"/>
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="290dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:padding="5dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:text="Date:"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"/>-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:text="00/00/0000"-->
+<!--                    android:textColor="@color/colorPrimary"-->
+<!--                    android:textSize="18dp"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/salary" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Category:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="Bills"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Amount:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:id="@+id/both_bills"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#542013"
+                    android:text="0.00"/>
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="290dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:padding="5dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:text="Date:"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:textSize="18dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"-->
+<!--                    android:text="00/00/0000"/>-->
+
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/others_red" />
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Category:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="Grocery"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Amount:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:id="@+id/both_grocery"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#542013"
+                    android:text="0.00"/>
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="290dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:padding="5dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:text="Date:"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"/>-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:text="00/00/0000"-->
+<!--                    android:textColor="@color/colorPrimary"-->
+<!--                    android:textSize="18dp"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/grocery_expense" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Category:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="Entertainment"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Amount:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:id="@+id/both_entertainment"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#542013"
+                    android:text="0.00"/>
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="290dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:padding="5dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:text="Date:"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:textSize="18dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"-->
+<!--                    android:text="00/00/0000"/>-->
+
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/entertainment" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Category:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="Savings"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Amount:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:id="@+id/both_savings"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#4CAF50"
+                    android:text="0.00"/>
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="290dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:padding="5dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:text="Date:"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:textSize="18dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"-->
+<!--                    android:text="00/00/0000"/>-->
+
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/saving" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Category:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="Kids"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Amount:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:id="@+id/both_kids"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#542013"
+                    android:text="0.00"/>
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="290dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:padding="5dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:text="Date:"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:textSize="18dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"-->
+<!--                    android:text="00/00/0000"/>-->
+
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/kids" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Category:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="Fuels"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Amount:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:id="@+id/both_fuels"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#542013"
+                    android:text="0.00"/>
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="290dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:padding="5dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:text="Date:"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:textSize="18dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"-->
+<!--                    android:text="00/00/0000"/>-->
+
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/fuel" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Category:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="Deposit"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Amount:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:id="@+id/both_deposit"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#4CAF50"
+                    android:text="0.00"/>
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="290dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:padding="5dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:text="Date:"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:textSize="18dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"-->
+<!--                    android:text="00/00/0000"/>-->
+
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/deposit" />
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Category:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="Medical"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Amount:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:id="@+id/both_medical"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#542013"
+                    android:text="0.00"/>
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="290dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:padding="5dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:text="Date:"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"/>-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:text="00/00/0000"-->
+<!--                    android:textColor="@color/colorPrimary"-->
+<!--                    android:textSize="18dp"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/medical" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Category:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="Savings/Investment"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Amount:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:id="@+id/expense_savings"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#542013"
+                    android:text="0.00"/>
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="290dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:padding="5dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:text="Date:"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:textSize="18dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"-->
+<!--                    android:text="00/00/0000"/>-->
+
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/saving_expense" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Category:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="Vehicles"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Amount:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:id="@+id/both_vehicle"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#542013"
+                    android:text="0.00"/>
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="290dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:padding="5dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:text="Date:"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:textSize="18dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"-->
+<!--                    android:text="00/00/0000"/>-->
+
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/vehical" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Category:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="Travel"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Amount:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:id="@+id/both_travel"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#542013"
+                    android:text="0.00"/>
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="290dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:padding="5dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:text="Date:"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:textSize="18dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"-->
+<!--                    android:text="00/00/0000"/>-->
+
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/travel" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Category:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="Others"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Amount:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:id="@+id/income_others"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#4CAF50"
+                    android:text="0.00"/>
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="290dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:padding="5dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:text="Date:"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:textSize="18dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"-->
+<!--                    android:text="00/00/0000"/>-->
+
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/others_green" />
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Category:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="Shopping"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Amount:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:id="@+id/both_shopping"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#542013"
+                    android:text="0.00"/>
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="290dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:padding="5dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:text="Date:"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"/>-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:text="00/00/0000"-->
+<!--                    android:textColor="@color/colorPrimary"-->
+<!--                    android:textSize="18dp"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/grocery" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Category:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="Eating Out"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Amount:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:id="@+id/both_eatingout"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#542013"
+                    android:text="0.00"/>
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="290dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:padding="5dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:text="Date:"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:textSize="18dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"-->
+<!--                    android:text="00/00/0000"/>-->
+
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/eating_out" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Category:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="Others"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Amount:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:id="@+id/expense_others"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#542013"
+                    android:text="0.00"/>
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="290dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:padding="5dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:text="Date:"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:textSize="18dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/colorPrimary"-->
+<!--                    android:text="00/00/0000"/>-->
+
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/others_red" />
+
+    </LinearLayout>
+     </LinearLayout>
+    </ScrollView>
+</LinearLayout>
