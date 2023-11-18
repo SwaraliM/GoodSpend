@@ -1,16 +1,16 @@
 # GoodSpend
 A Finance Management application to maintain daily expenditure and also improve your spending.
 
-## Contibutor:
-Shreya Pandey
-
+## Contibutors:
 Swarali Mahimkar
+
+Shreya Pandey
 
 Siddesh Mishra
 
 Aman Tiwari
 
-## Tool Used:
+## Tools Used:
 1. Java Programing Language
 2. Android Studio
 3. Firebase for authentication and data storage
@@ -19,8 +19,8 @@ Aman Tiwari
 1. SignIn/SignUp Authentication
 2. Details of total income/expense/balance amount with alert message(if expense>income)
 3. All Transaction display
-4. Reminder/Alert (Add new / Edit exsisting)
-5. Autopay (Add new / Edit exsisting)
+4. Reminder/Alert (Add new / Edit existing)
+5. Autopay (Add new / Edit existing)
 6. Graphical display of all transaction details
 7. Profile (Update / Delete)
 8. Logout
